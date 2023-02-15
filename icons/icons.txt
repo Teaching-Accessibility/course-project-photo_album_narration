@@ -1,0 +1,17 @@
+Play Pause
+<link href='https://css.gg/play-pause-o.css' rel='stylesheet'>
+
+Profile
+<link href='https://css.gg/profile.css' rel='stylesheet'>
+
+Album
+<link href='https://css.gg/album.css' rel='stylesheet'>
+
+Image
+<link href='https://css.gg/image.css' rel='stylesheet'>
+
+Mic
+<link href='https://css.gg/mic.css' rel='stylesheet'>
+
+Home
+<link href='https://css.gg/home.css' rel='stylesheet'>
