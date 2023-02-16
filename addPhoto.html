@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="css/styles.css">
 <script src="/js/mainScript.js"></script>
   <head>
-    <title>PhoNar Main page</title>
+    <title>Add a Photo</title>
     <meta charset="UTF-8">
   </head>
 
@@ -11,19 +11,24 @@
     <div class="topnav">
       <a href="main.html">Home</a>
       <a href="addPhoto.html" class="active">Add a Photo</a>
-      <a href="My Gallery">My Gallery</a>
-      <a href="My Albums">My Albums</a>
-      <a href="My Profile">My Profile</a>
+      <a href="myGallery.html">My Gallery</a>
+      <a href="myAlbums.html">My Albums</a>
+      <a href="myProfile.html">My Profile</a>
       <a href="welcome.html">Exit</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
     
-
-    <input class="uploadFile" type = "file" name = "upload" accept = "image/*" onchange="loadFile(event)">
+    <h1>
+    <strong>Upload your image below</strong>
+    </h1>
+    <input class="uploadFile center" type = "file" name = "upload" accept = "image/*" onchange="loadFile(event)">
     <p><img id="output" width="300" class="center"/><p>
-
-
+    <h2>
+      <strong>Upload your audio file below</strong>
+    </h2>
+    <input class="uploadFile center" type="file" accept="audio/*" capture/>
+    
   </body>
 </html>
