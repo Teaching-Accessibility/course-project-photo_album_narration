@@ -9,8 +9,8 @@
 
   <body>
     <div class="topnav">
-      <a href="welcome.html" class="active">Home</a>
-      <a href="addPhoto.html">Add a Photo</a>
+      <a href="main.html">Home</a>
+      <a href="addPhoto.html" class="active">Add a Photo</a>
       <a href="My Gallery">My Gallery</a>
       <a href="My Albums">My Albums</a>
       <a href="My Profile">My Profile</a>
@@ -19,10 +19,11 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
-    <h1 id="mainHeader">Click add a photo to get started!</h1>
+    
+
+    <input class="uploadFile" type = "file" name = "upload" accept = "image/*" onchange="loadFile(event)">
+    <p><img id="output" width="300" class="center"/><p>
+
 
   </body>
 </html>
-
-
-
