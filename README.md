@@ -1,13 +1,13 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10077765&assignment_repo_type=AssignmentRepo)
 # Winter23_ClassProject_PHOTO_ALBUM_NARRATION
 
-This project is web based. No installation is required.
+This project is web based. No installation is required.<br>
 The idea behind having this project on a website is that it provides ease of access for people to use instead of downloading an app. 
-It is also easier for people to share their album link for other people to watch them.
+It is also easier for people to share their album link for other people to watch them.<br>
 We are going for a simple design for this website so that it will be easier for everyone with any skill or knowledge about technology.
-The design includes large text, high contrast colors, and as little buttons as possible.
-We want to create a website for people of any age, any skill level, just to be able to upload their photos digitally and help them tell their story to their friends or family.
-Since the covid days, most people are unable to meet their friends or family, so this is a website to help them tell a story about them or a picture they chosen.
+The design includes large text, high contrast colors, and as little buttons as possible.<br>
+We want to create a website for people of any age, any skill level, just to be able to upload their photos digitally and help them tell their story to their friends or family.<br>
+Since the covid days, most people are unable to meet their friends or family, so this is a website to help them tell a story about them or a picture they chosen.<br>
 This is still a work in progress.
 
 Team members: 
