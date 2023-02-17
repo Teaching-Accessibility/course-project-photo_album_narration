@@ -1,6 +1,10 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10077765&assignment_repo_type=AssignmentRepo)
 # Winter23_ClassProject_PHOTO_ALBUM_NARRATION
 
+This project is web based. The idea behind having this project on a website is that it provides ease of access for people to use instead of downloading an app. It is also easier for people to share their album link for other people to watch them.
+We are going for a simple design for this website so that it will be easier for everyone with any skill or knowledge about technology.
+This is still a work in progress.
+
 Team members: 
 
     David Lee
@@ -15,10 +19,6 @@ Team members:
         -coded backend js
         -created navigation stylings
         -added icons and images
-
-This project is web based. The idea behind having this project on a website is that it provides ease of access for people to use instead of downloading an app. It is also easier for people to share their album link for other people to watch them.
-We are going for a simple design for this website so that it will be easier for everyone with any skill or knowledge about technology.
-This is still a work in progress.
 
 <font size="10">
 Documentation and explanation of functionalities:
