@@ -16,11 +16,11 @@ Team members:
         -created navigation stylings
         -added icons and images
 
-    This project is web based. The idea behind having this project on a website is that it provides ease of access for people to use instead of downloading an app. It is also easier for people to share their album link for other people to watch them.
-    We are going for a simple design for this website so that it will be easier for everyone with any skill or knowledge about technology.
-    
+This project is web based. The idea behind having this project on a website is that it provides ease of access for people to use instead of downloading an app. It is also easier for people to share their album link for other people to watch them.
+We are going for a simple design for this website so that it will be easier for everyone with any skill or knowledge about technology.
+This is still a work in progress.
 
-<font size="6">
+<font size="10">
 Documentation and explanation of functionalities:
     <img src ="documentation_Images/welc.png">
         -This is the welcome page, it is design to be simple so that it won't overwhelm the user <br>
