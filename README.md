@@ -26,7 +26,7 @@ Team members:
         -added icons and images
 
 <font size="10">
-Documentation and explanation of functionalities:
+#Documentation and explanation of functionalities:
     <img src ="documentation_Images/welc.png">
         -This is the welcome page, it is design to be simple so that it won't overwhelm the user <br>
         -click on the green "GET STARTED" to enter the site
