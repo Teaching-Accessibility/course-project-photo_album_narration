@@ -46,6 +46,8 @@ Team members:
 <br><br><br>
 <img src ="documentation_Images/image.png">
         -This is an example of what an uploaded image looks like and the voice bar below is the recorded narration
+        -click the record audio to begin record. For first time users, you need to allow browser to access to your microphone
+        - <bold>NOTE:</bold> to download a copy of the audio narration, you need to play the audio and the download option will appear
 
 <br><br><br>
 <img src ="documentation_Images/gallery.png">
