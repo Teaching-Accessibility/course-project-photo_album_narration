@@ -15,6 +15,7 @@
       <a href="myGallery.html"><span class="gg-image"></span>  My Gallery</a>
       <a href="myAlbums.html"><span class="gg-album"></span>  My Albums</a>
       <a href="myProfile.html"><span class="gg-profile"></span>  My Profile</a>
+      <a href="help.html"><span class="gg-info"></span> Help</a>
       <a href="welcome.html"><span class="gg-log-off"></span>  Exit</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
@@ -45,6 +46,24 @@
     </h3>
     <input class="uploadFile center" type="file" accept="audio/*" capture/>
 
+    <div style="text-align: center; font-size: larger;">
+    <h4>
+      <strong> Select destination album and Submit!</strong>
+    </h4>
+
+    <label for="albums">Select which album to upload to:</label>
     
+    <select name="albums" id="albums">
+      <option value="untitledAlbum">Untitled Album</option>
+      <option value="babyPictures">Baby Pictures</option>
+      <option value="oldPhotos">Old Photos</option>
+      <option value="food">Food</option>
+      <option value="newAlbum"> New Album</option>
+    </select> 
+
+    <button onclick="window.location.href='addPhoto.html';">
+      Submit
+    </button>
+    </div>
   </body>
 </html>

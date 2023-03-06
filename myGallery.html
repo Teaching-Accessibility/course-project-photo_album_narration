@@ -18,6 +18,7 @@
       <a href="myGallery.html" class="active"><span class="gg-image"></span>  My Gallery</a>
       <a href="myAlbums.html"><span class="gg-album"></span>  My Albums</a>
       <a href="myProfile.html"><span class="gg-profile"></span>  My Profile</a>
+      <a href="help.html"><span class="gg-info"></span> Help</a>
       <a href="welcome.html"><span class="gg-log-off"></span>  Exit</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
@@ -27,15 +28,34 @@
     <h1 id="pageTitle">My Gallery</h1>
 
 
-    <div class="img-gallery">
-      <img src="/images/old-photo1.jpg"></img>
-      <img src="/images/old-photo2.jpg"></img>
-      <img src="/images/visual_enthno2.JPG"></img>
-      <img src="/images/visual_ethno3.jpg"></img>
-      <img src="/images/visual_ethno5.JPG"></img>
-      <img src="/images/IMG_7402[238].jpg"></img>
+    <div class="full-img" id="fullImgBox">
+        <img src="/images/old-photo1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
     </div>
 
+    <div class="img-gallery">
+      <img src="/images/old-photo1.jpg" onclick="openFullImg(this.src)"></img>
+      <img src="/images/old-photo2.jpg" onclick="openFullImg(this.src)"></img>
+      <img src="/images/visual_enthno2.JPG" onclick="openFullImg(this.src)"></img>
+      <img src="/images/visual_ethno3.jpg" onclick="openFullImg(this.src)"></img>
+      <img src="/images/visual_ethno5.JPG" onclick="openFullImg(this.src)"></img>
+      <img src="/images/IMG_7402[238].jpg" onclick="openFullImg(this.src)"></img>
+    </div>
+
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+
+      function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+
+      function closeFullImg(){
+        fullImgBox.style.display = "none";
+      }
+    </script>
+    
   </body>
 </html>
 
