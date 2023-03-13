@@ -11,14 +11,14 @@ Since the covid days, most people are unable to meet their friends or family, so
 This is still a work in progress.<br>
 
 Design guidelines:
-        - Design is crafted from older adult's feedback
-        - Headers were created with sufficent size and contrast
-        - Simple UI for easier navigation
-        - contrast tested using WAVE tool
-        - suitable font for better reading
-        - brief and easy to understand instruction
-        - buttons sufficiently spaced
-        - minimal pages design for better viewing
+        - Design is crafted from older adult's feedback<br>
+        - Headers were created with sufficent size and contrast<br>
+        - Simple UI for easier navigation<br>
+        - contrast tested using WAVE tool<br>
+        - suitable font for better reading<br>
+        - brief and easy to understand instruction<br>
+        - buttons sufficiently spaced<br>
+        - minimal pages design for better viewing<br>
 
 Team members: 
 
