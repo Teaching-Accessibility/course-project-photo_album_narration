@@ -62,6 +62,9 @@ Team members:
 <img src ="documentation_Images/albums.png">
         -The album page shows the grouped photos with their corresponding narration
 
+<br><br><br>
+<img src ="documentation_Images/profile.png">
+        -This page shows the profile information of the user (Still a work in progress)
 
 <br><br><br>
 <img src ="documentation_Images/help.png">
