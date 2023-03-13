@@ -10,7 +10,7 @@ We want to create a website for people of any age, any skill level, just to be a
 Since the covid days, most people are unable to meet their friends or family, so this is a website to help them tell a story about them or a picture they chosen.<br>
 This is still a work in progress.<br>
 
-Design guidelines:
+Design guidelines:<br>
         - Design is crafted from older adult's feedback<br>
         - Headers were created with sufficent size and contrast<br>
         - Simple UI for easier navigation<br>
