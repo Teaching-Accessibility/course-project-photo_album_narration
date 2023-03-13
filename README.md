@@ -8,7 +8,17 @@ We are going for a simple design for this website so that it will be easier for 
 The design includes large text, high contrast colors, and as little buttons as possible.<br>
 We want to create a website for people of any age, any skill level, just to be able to upload their photos digitally and help them tell their story to their friends or family.<br>
 Since the covid days, most people are unable to meet their friends or family, so this is a website to help them tell a story about them or a picture they chosen.<br>
-This is still a work in progress.
+This is still a work in progress.<br>
+
+Design guidelines:
+        - Design is crafted from older adult's feedback
+        - Headers were created with sufficent size and contrast
+        - Simple UI for easier navigation
+        - contrast tested using WAVE tool
+        - suitable font for better reading
+        - brief and easy to understand instruction
+        - buttons sufficiently spaced
+        - minimal pages design for better viewing
 
 Team members: 
 
