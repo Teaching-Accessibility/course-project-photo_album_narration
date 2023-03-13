@@ -6,11 +6,11 @@
     transform: translate(-50%, -50%);
 }
 #mainHeader{
-    font-family: 'Arial';
+    font-family: 'Tahoma';
     font-size: 8vw;
     color: white;
-    -webkit-text-stroke-width: 0.5vw;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.3vw;
+    -webkit-text-stroke-color: rgb(3, 3, 3);
     margin: 0px 0px 30px 0px;
 }
 #mainButton{
@@ -42,8 +42,8 @@ footer span {
 #header1{
     font-family: 'Arial';
     font-size: 8vw;
-    color: white;
-    -webkit-text-stroke-width: 0.5vw;
+    color: rgb(134, 133, 133);
+    -webkit-text-stroke-width: 0.3vw;
     -webkit-text-stroke-color: black;
     margin: 10px 0px 30px 0px;
 }

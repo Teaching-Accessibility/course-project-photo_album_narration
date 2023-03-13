@@ -36,8 +36,10 @@ Team members:
         -This is the main page, the top navigation bar includes text and icons for easier recognition <br>
         -**"Add a Photo"** redirect user to the album creation page where user can upload image and record audio narration<br>
         -**"My Gallery"** Shows all the photo that has been uploaded <br>
-        -**"My Albums"** (Work In progress)<br>
-        -**"My Profile"** (Work In progress)
+        -**"My Albums"** Shows collection of photos in a group<br>
+        -**"My Profile"** shows the user profile information<br>
+        -**"Help"** shows detailed instruction
+        -**"Exit"** return to welcome page
 
 <br><br><br>
 <img src ="documentation_Images/add_photo.png">
@@ -47,9 +49,21 @@ Team members:
 <img src ="documentation_Images/image.png">
         -This is an example of what an uploaded image looks like and the voice bar below is the recorded narration<br>
         -click the record audio to begin record. For first time users, you need to allow browser to access to your microphone<br>
-        -**NOTE:** to download a copy of the audio narration, you need to play the audio and the download option will appear
+        -you can click record again, and it will replace your previous recording.<br>
+        -image and recoding will not be saved until it is submitted, user can redo as much as they can<br>
+        -**NOTE:** to download a copy of the audio narration, you need to play the audio and the download option will appear<br>
+        -the 3 dot menu will show the audio download and the playback speed
 
 <br><br><br>
 <img src ="documentation_Images/gallery.png">
         -The gallery page shows all the photos that have been uploaded
+
+<br><br><br>
+<img src ="documentation_Images/albums.png">
+        -The album page shows the grouped photos with their corresponding narration
+
+
+<br><br><br>
+<img src ="documentation_Images/help.png">
+        -The help page shows detailed instruction on how to use the website
 </font>
