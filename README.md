@@ -34,6 +34,9 @@ Team members:
         -coded backend js
         -created navigation stylings
         -added icons and images
+        -implemented image uploading and audio recording functionality
+        -implemented gallery and album display
+        -added a help page with detailed instructions on uploading images and audio
 
 # Documentation and explanation of functionalities:
 <font size="10">
