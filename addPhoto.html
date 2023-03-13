@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/styles.css">
+<link href='https://css.gg/css' rel='stylesheet'>
+<script src="/js/mainScript.js"></script>
+  <head>
+    <title>Add a Photo</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a href="main.html"><span class="gg-home"></span>  Home</a>
+      <a href="addPhoto.html" class="active"><span class="gg-file-add"></span>  Add a Photo</a>
+      <a href="myGallery.html"><span class="gg-image"></span>  My Gallery</a>
+      <a href="myAlbums.html"><span class="gg-album"></span>  My Albums</a>
+      <a href="myProfile.html"><span class="gg-profile"></span>  My Profile</a>
+      <a href="help.html"><span class="gg-info"></span> Help</a>
+      <a href="welcome.html"><span class="gg-log-off"></span>  Exit</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <h1>
+    <strong>Upload your image below</strong>
+    </h1>
+    <input class="uploadFile center" type = "file" name = "upload" accept = "image/*" onchange="loadFile(event)">
+    <p><img id="output" width="300" class="center"/><p>
+    <h2>
+      <strong>Record your narration here</strong>
+    </h2>
+    
+    <div class="container">
+      <div class="display">
+
+      </div>
+
+      <div class="controllers">
+
+      </div>
+    </div>
+    <script src="/js/recorder.js"></script>
+    <h3>
+      <strong> Upload your audio below</strong>
+    </h3>
+    <input class="uploadFile center" type="file" accept="audio/*" capture/>
+
+    <div style="text-align: center; font-size: larger;">
+    <h4>
+      <strong> Select destination album and Submit!</strong>
+    </h4>
+
+    <label for="albums">Select which album to upload to:</label>
+    
+    <select name="albums" id="albums">
+      <option value="untitledAlbum">Untitled Album</option>
+      <option value="babyPictures">Baby Pictures</option>
+      <option value="oldPhotos">Old Photos</option>
+      <option value="food">Food</option>
+      <option value="newAlbum"> New Album</option>
+    </select> 
+
+    <button onclick="window.location.href='addPhoto.html';">
+      Submit
+    </button>
+    </div>
+  </body>
+</html>

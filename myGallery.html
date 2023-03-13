@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/styles.css">
+<link href='https://css.gg/css' rel='stylesheet'>
+
+<script src="/js/mainScript.js"></script>
+  <head>
+    <title>My Gallery</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/galleryStyle.css">
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a href="main.html"><span class="gg-home"></span>  Home</a>
+      <a href="addPhoto.html"><span class="gg-file-add"></span>  Add a Photo</a>
+      <a href="myGallery.html" class="active"><span class="gg-image"></span>  My Gallery</a>
+      <a href="myAlbums.html"><span class="gg-album"></span>  My Albums</a>
+      <a href="myProfile.html"><span class="gg-profile"></span>  My Profile</a>
+      <a href="help.html"><span class="gg-info"></span> Help</a>
+      <a href="welcome.html"><span class="gg-log-off"></span>  Exit</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <h1 id="pageTitle">My Gallery</h1>
+
+
+    <div class="full-img" id="fullImgBox">
+        <img src="/images/old-photo1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="img-gallery">
+      <img src="/images/visual_enthno2.JPG" onclick="openFullImg(this.src)"></img>
+      <img src="/images/old-photo1.jpg" onclick="openFullImg(this.src)"></img>
+      <img src="/images/old-photo2.jpg" onclick="openFullImg(this.src)"></img>
+      <img src="/images/visual_ethno3.jpg" onclick="openFullImg(this.src)"></img>
+      <img src="/images/visual_ethno5.JPG" onclick="openFullImg(this.src)"></img>
+      <img src="/images/IMG_7402[238].jpg" onclick="openFullImg(this.src)"></img>
+    </div>
+
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+
+      function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+
+      function closeFullImg(){
+        fullImgBox.style.display = "none";
+      }
+    </script>
+    
+  </body>
+</html>
+
+
+<!--
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="/css/galleryStyle.css">
+  </head>
+
+  <div class="img-gallery">
+    <img src="images/old-photo1.jpg"></img>
+    <img src="images/old-photo.jpg"></img>
+  </div>
+
+</html>
+-->

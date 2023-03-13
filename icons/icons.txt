@@ -1,0 +1,55 @@
+Play Pause
+<link href='https://css.gg/play-pause-o.css' rel='stylesheet'>
+
+Profile
+<link href='https://css.gg/profile.css' rel='stylesheet'>
+
+Album
+<link href='https://css.gg/album.css' rel='stylesheet'>
+
+Image
+<link href='https://css.gg/image.css' rel='stylesheet'>
+
+Mic
+<link href='https://css.gg/mic.css' rel='stylesheet'>
+
+Home
+<link href='https://css.gg/home.css' rel='stylesheet'>
+
+Power/exit
+<i class="gg-log-off"></i>
+
+File add
+<i class="gg-file-add"></i>
+
+
+FONT AWESOME ICONS BELOW (using)
+<script src="https://kit.fontawesome.com/fa86c23bec.js" crossorigin="anonymous"></script>
+
+
+Profile
+<i class="fa-regular fa-user"></i>
+
+Image
+<i class="fa-regular fa-image"></i>
+
+Home
+<i class="fa-regular fa-house"></i>
+
+Microphone
+<i class="fa-solid fa-microphone"></i>
+
+Play
+<i class="fa-regular fa-circle-play"></i>
+
+Pause
+<i class="fa-regular fa-circle-pause"></i>
+
+Album
+<i class="fa-regular fa-book-bookmark"></i>
+
+Images/Gallery
+<i class="fa-regular fa-images"></i>
+
+File Image (add a photo maybe?)
+<i class="fa-solid fa-file-image"></i>
